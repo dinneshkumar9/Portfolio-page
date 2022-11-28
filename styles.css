@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 30px;
+}
+
+
+
+#home {
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    text-align: center;
+    padding-top: 90px;
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+
+#avatar{
+    height: 50vh;
+    border-radius: 50%;
+
+}
+
+.sub-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub-text{
+    color: rgb(179, 33, 179);
+}
+
+#skills-heading{
+    padding-top: 20px;
+}
+
+#badge{
+    display: flex;
+   justify-content: space-around;
+   padding-top: 20px;
+}
+
+#project-heading{
+    padding-top: 20px;
+}
+
+#work{
+    text-decoration-line: none;
+}
+#work:hover{
+   color:blueviolet;
+}
+
+
+button:hover{
+    background-color: gray;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
